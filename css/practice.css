@@ -1,0 +1,19 @@
+
+body {
+
+    background-color: #B2C8DF;
+}
+/* .container > .div2 p:nth-of-type(n+4):nth-of-type(-n+6) {
+    color: #fff;
+} */
+
+/* .container :is(.div1,.div3) p{
+     color: #fff;
+} */
+.div2:has(h3) {
+    padding: 10px;
+    background-color: rgb(190, 27, 27);
+}
+.container .div1 > h3::first-letter {
+    color: white;
+}

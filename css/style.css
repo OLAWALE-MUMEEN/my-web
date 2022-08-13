@@ -1,0 +1,116 @@
+* {
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+h1,h2 {
+    color: #6E85B7;
+    /* font-family: 'Brush Script MT', cursive; */
+    font-family: 'Sofia', cursive;
+    font-size: 2em;
+    font-weight: 800;
+    letter-spacing: 2px;
+
+}
+h1::first-letter {
+    font-size: 30pt;
+  
+    
+}
+h2:last-of-type {
+    color: #fff;
+}
+body{
+    background-color: #B2C8DF;
+}
+img {
+    border-radius: 5em;
+    height: 130px;
+    width: 130px;
+}
+hr {
+    border: 2px dotted gray;
+    border-style: dotted none none;
+    border-width: 5px;
+    margin: auto;
+    width: 15em;
+}
+h2::before {
+    /* font-family: "Font Awesome 5 Free";
+ content: "\f35a";
+ color: #495C83;
+ font-weight: 700;
+ padding-right: .5em;
+ vertical-align: middle; */
+ content: url("/img/right-arrow.png");
+ padding-right: .5em;
+ vertical-align: middle;
+}
+#form_containal {
+    border:0px solid #6E85B7;
+    border-radius: 1em;
+    background-color: #6E85B7;
+    margin:auto;
+    margin-top: 5em;
+    padding: 20px;
+    width: 25em;
+}
+#form_containal:focus-within {
+background-color: #495C83;
+}
+.input {
+    border-style: none;
+    background-color: lightgray;
+    height: 30px;
+    width: 250px;
+}
+.input:focus{
+    outline: 1px solid #000;
+}
+.input:placeholder-shown {
+    font-style: italic;
+    text-overflow: ellipsis;
+}
+.input[type="email"]:invalid,input:required {
+outline: 1px solid #ff0000;
+}
+.input:valid {
+    outline: 1px solid #00ff00;
+}
+.input:-webkit-autfill {
+outline: 1px solid #D3D952;
+ background-color: #F8F8DD;
+}
+.input:autofill{
+    outline: 1px solid #D3D952;
+    background-color: #F8F8DD;
+}
+.input:autocomplete {
+    outline: 1px solid #D3D952;
+    background-color: #F8F8DD;
+}
+textarea {
+display: block;
+margin: auto;
+}
+.btn {
+    display: inline-block;
+    width: 120px;
+    border-style: none;
+    border-radius: 10px;
+    background-color: #fff;
+    color:#6E85B7;
+    height: 37px;
+    margin: 2em;
+    padding: 1em;
+   text-align: center;
+}
+.btn:focus{
+    outline: 1px solid black;
+}
+.btn:focus-visible{
+    outline: 1px solid black;
+}
+/* fonts family */
+/* @import url('https://fonts.googleapis.com/css2?family=Sofia&display=swap'); */
+/* @import url('https://fonts.googleapis.com/css2?family=Sofia&display=swap'); */
